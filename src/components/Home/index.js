@@ -12,6 +12,7 @@ function Home() {
                 <h2>
                     Fullstack Web Developer
                 </h2>
+                <Link to='/contact' className='flat-button'>DOWNLOAD CV</Link>
                 <Link to='/contact' className='flat-button'>GET IN TOUCH</Link>
             </div>
             <div className='about-zone'>
