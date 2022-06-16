@@ -1,6 +1,7 @@
 import './index.scss';
 import { Link } from 'react-router-dom';
 import headshot from '../../assets/images/headshot-1.jpg';
+import Resume from '../../assets/../assets/docs/Luke_Johnsen_Resume_2022_.docx.pdf'
 
 function Home() {
     return (
@@ -12,8 +13,24 @@ function Home() {
                 <h2>
                     Fullstack Web Developer
                 </h2>
-                <Link to='/contact' className='flat-button'>DOWNLOAD CV</Link>
+                <a href={Resume} className='flat-button' target='_blank' rel='noreferrer'>DOWNLOAD CV</a>
                 <Link to='/contact' className='flat-button'>GET IN TOUCH</Link>
+            </div>
+            <div className='skill-zone'>
+                <h1>Skills</h1>
+                    <ul>
+                        <li>REACT</li>
+                        <li>JAVASCRIPT</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>NODE.JS</li>
+                        <li>EXPRESS.JS</li>
+                        <li>MONGODB</li>
+                        <li>MONGOOSE</li>
+                        <li>MYSQL</li>
+                        <li>SEQUELIZE</li>
+                        <li>REST API</li>
+                    </ul>
             </div>
             <div className='about-zone'>
                 <img src={headshot} alt='homepage headshot' className='headshot' />

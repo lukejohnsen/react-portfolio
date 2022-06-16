@@ -2,10 +2,25 @@
     .text-zone {
         position: absolute;
         left: 10%;
-        top: 50%;
+        top: 20%;
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
+    }
+
+    .skill-zone {
+        position: absolute;
+        left: 10%;
+        top: 70%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+        color: #ffd700;
+        font-size: 18px;
+        ul {
+            list-style-type: none;
+            margin-left: -40px
+        }
     }
 
     h1 {
@@ -36,7 +51,7 @@
         margin-top: 25px;
         margin-right: 20px;
         float: left;
-        animation: fadeIn 1s 1.8s backwards;
+        animation: fadeIn 1s 0s backwards;
         white-space: nowrap;
 
         &:hover {
@@ -50,7 +65,7 @@
             width: 35%;
             height: auto;
             float: right;
-            transform: translateY(80%);
+            transform: translateY(70%);
             border-radius: 10%;
             margin-right: 10%;
         }

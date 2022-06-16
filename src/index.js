@@ -11,5 +11,5 @@ root.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
